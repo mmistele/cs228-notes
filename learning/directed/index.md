@@ -50,7 +50,7 @@ where $$D$$ is a dataset drawn i.i.d. from $$p^*$$.
 
 Maximum likelihood learning is then defined as
 {% math %}
-\max_{p \in M} \frac{1}{|D|} \sum_{x \in D}  \log p(x), 
+\arg\max_{p \in M} \frac{1}{|D|} \sum_{x \in D}  \log p(x), 
 {% endmath %}
 
 ### An example
